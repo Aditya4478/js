@@ -10,7 +10,7 @@ function checkDatesAvailability() {
             if (lengthh !== 0) {
                 console.log("Dates available");
 
-                let audio = new Audio('https://samplelib.com/lib/preview/mp3/sample-12s.mp3');
+                let audio = new Audio('https://aditya4478.github.io/js/music.mp3');
                 audio.play();
 
                 // Stop the loop since we found available dates
