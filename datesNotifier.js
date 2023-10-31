@@ -2,8 +2,8 @@
     function checkDatesAvailability() {
         let obj = document.querySelectorAll('.ui-datepicker-month');
         
-        if (obj && obj[0] && obj[0][9] && obj[0][9]["attributes"] && obj[0][9]["attributes"]["1"]) {
-            let check = obj[0][9]["attributes"]["1"].value;
+        if (obj && obj[0] && obj[0][10] && obj[0][10]["attributes"] && obj[0][10]["attributes"]["1"]) {
+            let check = obj[0][10]["attributes"]["1"].value;
             
             if(check === 'selected') {
                 let lengthh = document.querySelectorAll('.greenday').length;
